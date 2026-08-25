@@ -1,4 +1,5 @@
 import {words} from '../constants/index.js'
+import Button from './Button.jsx';
 
 const  Hero = () =>  {
   return (
@@ -37,7 +38,14 @@ const  Hero = () =>  {
                     <h1>into Real Projects</h1>
                     <h1>that Deliver Result</h1>
                 </div>
-
+            <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
+                Hi, I'm Rasmi, a front-end developer based in Pokhara with a passion for code.
+             </p>
+             <Button 
+             className="md:2-80 md:h-16 w-60 h-12 "
+             id="button"
+             text="See my work"
+             />
             </div>
         </header>
         </div>
