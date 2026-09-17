@@ -211,7 +211,7 @@ section {
 
     .bg-circle {
       @apply absolute -right-10 origin-center top-1/2 -translate-y-1/2 
-        w-[120%] h-[120%] group-hover:size-10 group-hover:right-10
+        w-[120%] h-[120%] group-hover:size-10 group-hover:right-8
         rounded-full bg-white-50 transition-all duration-500;
     }
 
@@ -221,7 +221,7 @@ section {
     }
 
     .arrow-wrapper {
-      @apply group-hover:bg-white-50 group-hover:ml-5  ml-5 size-10 rounded-full absolute right-10 top-1/2 
+      @apply group-hover:bg-white-50 ml-5 size-10 rounded-full absolute right-8 top-1/2 
         -translate-y-1/2 flex justify-center items-center overflow-hidden;
 
       img {
