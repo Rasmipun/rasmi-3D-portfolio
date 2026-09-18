@@ -155,7 +155,7 @@ section {
   }
 
   .app-showcase {
-    @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
+    @apply w-full h-full mt-20 px-5 md:px-10 py-10 md:py-20 flex items-center justify-center;
 
     .showcaselayout {
       @apply flex xl:flex-row flex-col gap-10 justify-between;
@@ -168,9 +168,14 @@ section {
         @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
 
         img {
-          @apply w-full h-full object-cover rounded-xl absolute inset-0;
+          @apply w-full h-full object-contain rounded-xl absolute 
+          inset-0;
         }
-      }
+      } 
+
+
+
+
 
       .text-content {
         @apply space-y-5 mt-5;
